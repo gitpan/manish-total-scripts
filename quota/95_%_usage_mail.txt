@@ -1,0 +1,11 @@
+Dear DirecWay Customer,
+
+This is Auto Generated  Message from DirecWay Messaging Server. You are currently using more than 95% of Disk Usage allocated to your POP account. Request you to kindly download/delete some mails so as to make space in your POP account.
+
+Request you to treat this request on URGENT basis, so as to avoid any bounce back of any new mails coming for your account.
+
+Thanks in anticipation of your kind support.
+
+Warm Regards
+ISGCS Team
+

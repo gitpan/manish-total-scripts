@@ -1,0 +1,18 @@
+#!/bin/sh
+ctr=0
+for i in $*
+do
+abc=0
+#echo /var/qmail/queue/info/$abc/$i
+while [ $abc -lt 23 ]
+do
+echo $abc
+	rm /var/qmail/queue/info/$abc/$i
+	rm /var/qmail/queue/local/$abc/$i
+	rm /var/qmail/queue/mess/$abc/$i
+	#abc=expr`$abc+1`
+	let "abc = abc + 1"
+#echo $abc
+done
+done
+sleep 2

@@ -1,0 +1,2 @@
+echo This_account_is_blocked_as_the_quota_for_this_account_is_Full_Kindly_contact_System_Administrator
+exit 100

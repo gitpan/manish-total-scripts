@@ -1,0 +1,14 @@
+#!/bin/bash
+
+#This script will delete the postmaster mails from all the postmaster accounts on mailserver1
+#Created by Praveen Rana on 5th March,2006
+#
+
+for i in `cat /scripts/isg_scripts/postmasterlist`
+do
+rm -rf /home/$i/Maildir/new/*
+echo $i Postmaster mails deleted
+sleep 5
+done
+
+

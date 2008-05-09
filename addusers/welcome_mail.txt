@@ -1,0 +1,26 @@
+Dear FULL_NAME,
+
+Congratulations! You are now a privileged user of Nestle WebMail.
+
+Your details are as given below:
+DistributorConnect User ID : USER_ID
+
+Webmail User ID : EMAIL_ID
+
+Email Address : EMAIL_ADDR
+
+
+While logging in to Nestle WebMail, you must always prefix "NES-" with the
+DistributorConnect User ID.
+
+
+We request you to take note that the change of password on Nestle WebMail
+takes effect in approximately 10 minutes. Hence, you must wait before
+trying to login again after changing your password.
+
+In case of any problem using Nestle WebMail, please contact HECL Technical
+Assistance Center (Email: isgcs@hughes-ecomm.com, Phone: 124 6455334-37).
+
+Thank you,
+ISGCS
+

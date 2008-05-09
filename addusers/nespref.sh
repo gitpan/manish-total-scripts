@@ -1,0 +1,22 @@
+uname="rajneesh"
+fadd="rsaxena"
+#radd="rsaxena123"
+
+Luname=0
+Lfadd=0
+#Lradd=0
+
+Luname=`echo $uname | wc -c`
+Luname=`expr $Luname - 1`
+echo $Luname
+
+val='a:1:{i:0;a:12:{s:2:"id";s:16:"Default 
+Identity";s:8:"fullname";s:$Luname:"$uname";s:9:"from_addr";s:$Lfadd:"$fadd@nestle-cd.com";s:12:"replyto_addr";s:$Lradd:"$radd@nestle.co.in";s:9:"signature";s:0:"";s:9:"sig_first";i:0;s:10:"sig_dashes";i:0;s:14:"save_sent-mail";N;s:16:"sent_mail_folder";s:10:"Sent-mails";s:14:"save_sent_mail";s:1:"1";s:11:"private_key";N;s:16:"private_key_type";N;}}'
+
+
+
+SQL="insert into horde_perfs (pref_uid,pref_scope,pref_name,pref_value) 
+values ('$uname@nestle-cd.com','horde','identities',$val);"
+
+echo $SQL
+

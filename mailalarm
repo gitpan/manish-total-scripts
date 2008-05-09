@@ -1,0 +1,13 @@
+#!/bin/bash
+# This script will shoot a mail to isgcs@hughes-ecomm.com if the mails in local/remote queue is greater than 300 mails
+# Created by Praveen Rana on 5th March,2006
+#
+LOCALMAILS=`mailq | grep local | grep -v done | wc -l`
+REMOTEMAILS=`mailq | grep remote | grep -v done | wc -l`
+if [ $LOCALMAILS -gt 100 ]; then
+mail isgcs@hughes-ecomm.com -s"Pending mail status on `date`" </scripts/isg_scripts/localmail
+fi
+if [ $REMOTEMAILS -gt 100 ]; then
+mail isgcs@hughes-ecomm.com -s"Pending mail status on `date`" </scripts/isg_scripst/remotemail
+fi
+
